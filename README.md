@@ -1,41 +1,23 @@
-# MKDocs Template for the DTU Roboclub 
+<h1 align="center">ROS2 by Projects</h1>
 
-This repository contains the template for a MKDocs-based Github hosted website.
-The theme used here is [Material for MKDocs](https://squidfunk.github.io/mkdocs-material/).
+## Overview
 
-This repository falls under the MIT Licence. Copyright (c) 2024 DTU-Roboclub
+This repository contains the source code of the online tutorials to learn ROS2 through projects. It aims to provide resources to steadily understand every concept revolving around ROS2 by tackling them independantly and letting learners experience by writing themselves a dedicated package.
 
-## Needed documentations
+The tutorials will be splitted in several modules:
 
-The documentations you might need to work with this template are:
+- **Core 0:** ROS2 Overview
+- **Core 1:** Basics concepts
+- **Core 2:** Advanced Concepts
+- **Core 3:** Specialized packages
+  - **a:** Manipulator robots and MoveIt
+  - **b:** Mobile robots and Nav2
+- **Core 4:** Diverse and advanced topics (that doesn't fit in other category)
 
-- [MKDocs documentation](https://www.mkdocs.org/)
-- [Material Theme documentation](https://squidfunk.github.io/mkdocs-material/)
+The website is available [here (DTU Roboclub website)](https://roboclubdtu.github.io/ros2-prj).
 
-## Installing Requirements
+## This repository
 
-To build and work on your own device, you need to install some depencies. They are registered in the file `requirements.txt`. To install them, simply run:
+This repository is mainly maintained by Geoffrey @Meltwin Côte. It is published under the DTU Roboclub name for all students. I am just making this project because I'd like to spread the usage and understanding of ROS2 across the students, especially in university that do not teach it. Anyone that want to use, improve or help building this website is welcome as the task is a bit tedious.
 
-```shell
-pip install -r requirements.txt
-```
-
-## Using MKDocs on your device
-
-You can run a mkdocs server on your computer to see on real-time your changes. For that, just run inside this directory:
-
-```shell
-mkdocs serve
-```
-
-And open the link shown in the console, which is a localhost address [127.0.0.1:8000](127.0.0.1:8000).
-
-## Modifying and pushing the changes on Github
-
-While on your pc you can use the command `mkdocs serve` to see the changes in real-time, to made them available only you have to push them. 
-
-Thanks to an automated GitHub workflow (that you can found in the *.github/workflows* directory), the website is automatically built when a change is pushed on the `main` branch. It will export the made static website on the `gh-pages` branch.
-
-When creating a new repository you may have to configure it so that it is a GitHub Page (Settings > Pages, then for the source select `deploy from branch`, and for the branch select `gh-pages` and `/(root)` as folder).
-
-You may also need to allow the export of the static website by the workflow: Settings > Actions > General > Workflow permissions and select `Read and write permissions`.
+It is published under the MIT Licence.

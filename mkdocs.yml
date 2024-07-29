@@ -1,6 +1,6 @@
-site_name: DTU - MKDocs Template
-repo_url: https://github.com/Baxterminator/raubase_ros
-site_description: Raubase ROS package documentation
+site_name: ROS2 by Projects
+repo_url: https://github.com/roboclubdtu/ros2-prj
+site_description: Learning ROS2 through projects
 site_author: Meltwin
 copyright: © 2024 - DTU Roboclub
 docs_dir: docs
@@ -41,7 +41,10 @@ markdown_extensions:
   - footnotes
   - pymdownx.inlinehilite
   - pymdownx.snippets
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
   - pymdownx.critic
   - pymdownx.caret
   - pymdownx.keys
