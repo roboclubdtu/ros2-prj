@@ -7,6 +7,8 @@ docs_dir: docs
 site_dir: build
 nav:
   - Home: index.md
+extra_css:
+  - assets/custom_css.css
 theme:
   name: material
   favicon: assets/Logo_Thicker.svg
