@@ -7,7 +7,7 @@ graph TD;
   A[<b>Core 0</b>\nOverview] --> B[<b>Core 1</b>\nBasics concepts]
   B --> C[<b>Core 2</b>\nAdvanced concepts]
   C --> D1[<b>Core 3a</b>\nManipulators]
-  D1 --> Z[<b>Core 4</b>\nDiverse topics]
+  D1 --> Z[<b>Core Z</b>\nDiverse topics]
   C --> D2[<b>Core 3b</b>\nMobile robots]
   D2 --> Z
 ```
