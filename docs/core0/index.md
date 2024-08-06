@@ -4,9 +4,9 @@ In this module, we will present a quick overlook over the several facets of ROS2
 
 ## Chapters
 
-1. [A little bit on the ROS History](./history)
-2. [The principes upon which ROS lays](./principles)
-3. [The complete enviroment which is provided](./environment)
+1. [A little bit on the ROS History](./history.md)
+2. [The principes upon which ROS lays](./principles.md)
+3. [The complete enviroment which is provided](./environment.md)
 
 ## References
 
