@@ -14,9 +14,11 @@
       
       
       
+        <link rel="next" href="core1/">
+      
       
       <link rel="icon" href="assets/Logo_Thicker.svg">
-      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.30">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.31">
     
     
       
@@ -45,6 +47,8 @@
         <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
       
     
+    
+      <link rel="stylesheet" href="assets/custom_css.css">
     
     <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -272,6 +276,111 @@
   
 
     
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Core 1: Basics
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Core 1: Basics
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="core1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="core1/cmd/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    1 - Command line
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="core1/tools/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2 - Graphical tools
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
   </ul>
 </nav>
                   </div>
@@ -310,31 +419,13 @@
 
 <h1 id="ros2-by-projects">ROS2 by Projects</h1>
 <p>This website aims to provide resources to steadily understand most concepts revolving around ROS2 by tackling them independantly and letting learners experience by writing themselves a dedicated package. To achieve this, the content will be sliced in several modules, each tackling the subject with several robot: from simple simulation robots to manipulate small bits of code, to real robots to slowly fade into industries actual tasks.</p>
-<pre class="mermaid"><code>classDiagram
-  class `Core 0: Overview` {
-
-  }
-  class `Core 1: Basics concepts` {
-
-  }
-  `Core 0: Overview` --&gt; `Core 1: Basics concepts`
-  class `Core 2: Advanced concepts` {
-
-  }
-  `Core 1: Basics concepts` --&gt; `Core 2: Advanced concepts`
-  class `Core 3a: Manipulators` {
-
-  }
-  class `Core 3b: Mobile robots` {
-
-  }
-  `Core 2: Advanced concepts` --&gt; `Core 3a: Manipulators`
-  `Core 2: Advanced concepts` --&gt; `Core 3b: Mobile robots`
-  class `Core 4: Diverse topics` {
-
-  }
-  `Core 3a: Manipulators` --&gt; `Core 4: Diverse topics`
-  `Core 3b: Mobile robots` --&gt; `Core 4: Diverse topics`</code></pre>
+<pre class="mermaid"><code>graph TD;
+  A[&lt;b&gt;Core 0&lt;/b&gt;\nOverview] --&gt; B[&lt;b&gt;Core 1&lt;/b&gt;\nBasics concepts]
+  B --&gt; C[&lt;b&gt;Core 2&lt;/b&gt;\nAdvanced concepts]
+  C --&gt; D1[&lt;b&gt;Core 3a&lt;/b&gt;\nManipulators]
+  D1 --&gt; Z[&lt;b&gt;Core Z&lt;/b&gt;\nDiverse topics]
+  C --&gt; D2[&lt;b&gt;Core 3b&lt;/b&gt;\nMobile robots]
+  D2 --&gt; Z</code></pre>
 
 
 
