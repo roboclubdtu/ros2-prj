@@ -175,7 +175,7 @@ You should see the window with the turtle again. Now, let's try to run the comma
 
 ## Conclusion
 
-In this chapter, you have begun to manipulate the ros2 command line interface. As told earlier, you will have to use it a lot: at least every time you want to run some ROS thing. Don't worry is you are still a bit lost, the habit will comes with the time and the usage. You might say that we did not tackle all the available commands and you are right. I wanted to only talks about the one that I feel are the most important and to prevent this page from being way too complex, the other will come when needed.
+In this chapter, you have begun to manipulate the ros2 command line interface. As told earlier, you will have to use it a lot: at least every time you want to run some ROS thing. Don't worry if you are still a bit lost, the habit will comes with the time and the usage. You might say that we did not tackle all the available commands and you are right. I wanted to only talks about the one that I feel are the most important and to prevent this page from being way too complex, the other will come when needed.
 
 However I can only advise you to test and discover more by yourself. These tools are very powerful when you want to quickly check something. However, as we will see in the next chapter, some other tools provide a graphical interface to this command line executable.
 
