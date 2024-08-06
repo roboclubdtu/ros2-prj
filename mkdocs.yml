@@ -7,6 +7,25 @@ docs_dir: docs
 site_dir: build
 nav:
   - Home: index.md
+  # - "Core 0: Overview":
+  #   - Introduction: core0/index.md
+  #   - "1 - ROS History": core0/history.md
+  #   - "2 - Principles": core0/principles.md
+  #   - "3 - Environments": core0/environment.md
+  - "Core 1: Basics":
+    - Introduction: core1/index.md
+    - "1 - Command line": core1/cmd/index.md
+    - "2 - Graphical tools": core1/tools/index.md
+  # - "Core 2: Advanced":
+  #   - Introduction: core2/index.md
+  # - "Core 3a: Manipulators":
+  #   - Introduction: core3a/index.md
+  # - "Core 3b: Mobile robots":
+  #   - Introduction: core3b/index.md
+  # - "Diverse topics":
+  #   - Introduction: corez/index.md
+extra_css:
+  - assets/custom_css.css
 theme:
   name: material
   favicon: assets/Logo_Thicker.svg
@@ -52,3 +71,6 @@ markdown_extensions:
   - pymdownx.tilde
   - admonition
   - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
